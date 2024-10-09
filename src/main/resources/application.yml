@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: medical-customer-bs-innovative
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://bsinn.cviy6cm624ns.eu-north-1.rds.amazonaws.com:5432/CustomerMedicalDb?searchpath=bs_medical_customers
+    username: postgres
+    password: Sampath9963
+    
+  jpa:
+    hibernate:
+      ddl-auto: 
+    properties:
+      hiberante:
+        dialect: org.hibernate.dialect.postgreSQLDialect
+      show-sql:    
+server:
+  port: 8080
+  
+ 
+springdoc:
+  api-docs:
+    path: /swagger-ui.html   
