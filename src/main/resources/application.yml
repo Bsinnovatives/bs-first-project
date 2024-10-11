@@ -3,7 +3,7 @@ spring:
     name: medical-customer-bs-innovative
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://bsinn.cviy6cm624ns.eu-north-1.rds.amazonaws.com:5432/CustomerMedicalDb?searchpath=bs_medical_customers
+    url: jdbc:postgresql://bs-inn.cl8oquagywwc.ap-south-1.rds.amazonaws.com:5432/CustomerMedicalDb?searchpath=bs_medical_customers
     username: postgres
     password: Sampath9963
     
